@@ -29,6 +29,7 @@ setInterval(() => {
 */
 
 //chapter_05
+/*
 import CommentList from './chapter_05/CommentList';
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +37,16 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+*/
+
+//chapter_06
+import NotificationList from './chapter_06/NotificationList';
+ReactDOM.render(
+  <React.StrictMode>
+    <NotificationList />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
